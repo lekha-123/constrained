@@ -24,11 +24,11 @@ function setup() {
 
 	startBobPositionX=width/2;
 	startBobPositionY=height/4+500;
-	bobObject1=new bob(startBobPositionX-bobDiameter*2,startBobPositionY,bobDiameter);
-	bobObject2=new bob(startBobPositionX-bobDiameter,startBobPositionY,bobDiameter);
-	bobObject3=new bob(startBobPositionX,startBobPositionY,bobDiameter);
-	bobObject4=new bob(startBobPositionX+bobDiameter,startBobPositionY,bobDiameter);
-	bobObject5=new bob(startBobPositionX+bobDiameter*2,startBobPositionY,bobDiameter);
+	bobObject1=new bob1(startBobPositionX-bobDiameter*2,startBobPositionY,bobDiameter);
+	bobObject2=new bob1(startBobPositionX-bobDiameter,startBobPositionY,bobDiameter);
+	bobObject3=new bob1(startBobPositionX,startBobPositionY,bobDiameter);
+	bobObject4=new bob1(startBobPositionX+bobDiameter,startBobPositionY,bobDiameter);
+	bobObject5=new bob1(startBobPositionX+bobDiameter*2,startBobPositionY,bobDiameter);
 	
 	
 	//Create a Ground
