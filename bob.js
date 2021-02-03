@@ -1,4 +1,4 @@
-class bob
+class bob1
 {
 	constructor(x,y,r)
 	{
